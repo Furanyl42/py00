@@ -1,5 +1,5 @@
 def ft_seed_inventory(seed_type: str, quantity: int, unit: str) -> None:
-    seed = seed_type.title()
+    seed = seed_type.capitalize()
     match unit:
         case "packets":
             print(f"{seed} seeds: {quantity} packets available")
